@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.addTask {
+  height: 30vh;
+  background-color: rgb(30, 255, 206);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+#btn1{
+  color:white;
+  background-color: #09bff1;
+  border-radius: 5px;
+  border: 0px transparent;
+  padding:5px;
+  font-size: 13px;
+}
+#entertask{
+  margin:10px;
+}
+#btn2{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding:5px;
+  font-size: 13px;
+  margin: 10px;
+}
+#btn3{
+  color:white;
+  background-color: #f72121;
+  border-radius: 5px;
+  border: 0px transparent;
+  padding:5px;
+  font-size: 13px;
+}
